@@ -57,24 +57,24 @@ SELECT * FROM  table_name
                     TO SEE PRICE DIFFERENCE IN THE TABLE
 
 SELECT * FROM table_name 
-WHERE loanamount >10000       
+WHERE loanamount >value     
 
 SELECT * FROM table_name 
-WHERE loanamount <10000
+WHERE loanamount <value
 
 
                     IF WE WANT TO CHANGE PERTICULAR COLUMN DATA IN THE PERTICULAR ROW
                
 UPDATE table_name 
-SET column_name 
-WHERE row_namae
+SET column_name='value'
+WHERE row_namae='value'
 
 
                     IF WE WANT TO CHANGE 2 (OR) MORE COLUMNS DATA IN 1 PERTICULAR ROWS
 
 UPDATE table_name 
-set column_name-1='x',column_name-2='x'
- WHERE row_namae
+set column_name-1='value',column_name-2='value'
+ WHERE row_namae='value'
 
 
                     IF WE WANT TO SEE STATUS DATA IN THE TABLE
